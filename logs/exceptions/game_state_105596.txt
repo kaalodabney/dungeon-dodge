@@ -1,0 +1,12 @@
+# * EXCEPTION:
+# ** Failed to reload app/main.rb.
+# line 33:4: syntax error, unexpected keyword_if, expecting label or ':'
+# line 65:20: syntax error, unexpected local variable or method, expecting label or ':'
+# 
+# 
+# 
+# ** Backtrace:
+# *** app/main.rb:15
+
+Game State:
+{:state=>{:entity_id=>3, :tick_count=>105596, :__thrash_count__=>{}, :rotation=>-1047600, :x=>967.0, :y=>183.0}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:truthy_keys=>[]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>false}, :mouse=>{:x=>0.0, :y=>338.0, :moved=>nil, :moved_at=>105596, :has_focus=>false}, :text=>[]}, :passes=>[{:solids=>[], :sprites=>[], :lines=>[], :labels=>[], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}], :outputs=>{:solids=>[], :sprites=>[], :lines=>[], :labels=>[], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:origin_x=>0.0, :bottom=>0.0, :left_margin=>0.0, :center_x=>640.0, :center=>[640.0, 360.0], :origin_y=>720, :name=>:bottom_left, :bottom_margin=>0.0, :runtime=>{:argv=>"C:\\Projects\\Dragonruby\\Hello World Tyle\\dragonruby.exe", :platform=>"Windows", :required_files=>[], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>25200, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>24359, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>24360, :event=>:processing}, {:path=>"app/main.rb", :global_at=>24361, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>25198, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>25199, :event=>:processing}, {:path=>"app/main.rb", :global_at=>25200, :event=>:reload_completed}]}}}, :rect=>[0.0, 0.0, 1280, 720], :ffi_draw=>"", :right=>1280, :top=>720, :center_y=>360.0, :left=>0.0}}

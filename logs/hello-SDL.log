@@ -1,0 +1,14 @@
+* 000000 [Engine] Log started at 2022/8/11 20:54:6
+* 000000 [Engine] This copy of the engine is git hash cf202a80b3808d8a7891dd0535ed89db2ee02b67, built on Jun  5 2022, at 16:43:16
+* 000000 [Engine] Platform: Windows
+- 000000 [Engine] Game ID: hello-SDL
+- 000000 [Engine] Game title: Update metadata/game_metadata.txt in your mygame directory to change this title.
+- 000000 [Engine] Game version: 1.0
+- 000000 [Engine] Game package ID: 
+- 000000 [Engine] Game Developer ID: dragonruby
+- 000000 [Engine] Game Developer title: DragonRuby LLC
+- 000000 [Engine] Production build: no
+? 000000 [Engine] RNG seed has been set to 1660272846.
+? 000000 [Engine] Marked app/main.rb for reload. (-1)
+* 004712 [Engine] Logging shutting down
+

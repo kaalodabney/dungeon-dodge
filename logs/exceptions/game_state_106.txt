@@ -1,0 +1,19 @@
+# * EXCEPTION:
+# * ERROR - :-@ method missing on ~Game~.
+# The method named
+# :-@
+# doesn't exist on
+# [Game, #<Class:#<Game:0x64530f0>>, Game].
+# #+begin_src ~Game#inspect~
+# #<Game:0x64530f0>
+# #+end_src ~Game#inspect~ for :-@ method missing on ~Game~
+# ** Backtrace:
+# *** app/entities.rb:79:in playerMovement
+# *** app/entities.rb:75:in playerMovement
+# *** app/main.rb:79:in entityUpdate
+# *** app/main.rb:193:in tick
+# *** app/main.rb:202:in tick
+# *** app/main.rb:199
+
+Game State:
+{:state=>{:entity_id=>1, :tick_count=>106, :__thrash_count__=>{:-@=>1}, :game=>#<Game:0x64530f0>}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:truthy_keys=>[]}, :key_down=>{:char=>"a", :a=>105, :raw_key=>97, :truthy_keys=>[:char, :a, :raw_key]}, :has_focus=>true}, :mouse=>{:x=>564.0, :y=>309.0, :moved=>nil, :moved_at=>69, :has_focus=>true}, :text=>["a"]}, :passes=>[], :outputs=>{:solids=>[], :sprites=>[], :lines=>[], :labels=>[{:x=>10, :y=>500, :text=>"slime: []"}], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:origin_x=>0.0, :bottom=>0.0, :left_margin=>0.0, :center_x=>640.0, :center=>[640.0, 360.0], :origin_y=>720, :name=>:bottom_left, :bottom_margin=>0.0, :runtime=>{:argv=>"C:\\Projects\\Dragonruby\\Hello World Tyle\\dragonruby.exe", :platform=>"Windows", :required_files=>["app/entities.rb"], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>17034, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13849, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13850, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13851, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>14211, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>14212, :event=>:processing}, {:path=>"app/main.rb", :global_at=>14213, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15352, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15353, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15354, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>17033, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>17034, :event=>:reload_completed}]}, "app/entities.rb"=>{:current=>{:path=>"app/entities.rb", :global_at=>17034, :event=>:reload_completed}, :history=>[{:path=>"app/entities.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/entities.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/entities.rb", :global_at=>13850, :event=>:reload_queued}, {:path=>"app/entities.rb", :global_at=>13851, :event=>:reload_completed}, {:path=>"app/entities.rb", :global_at=>14212, :event=>:reload_queued}, {:path=>"app/entities.rb", :global_at=>14213, :event=>:reload_completed}, {:path=>"app/entities.rb", :global_at=>15353, :event=>:reload_queued}, {:path=>"app/entities.rb", :global_at=>15354, :event=>:reload_completed}, {:path=>"app/entities.rb", :global_at=>17032, :event=>:reload_queued}, {:path=>"app/entities.rb", :global_at=>17033, :event=>:processing}, {:path=>"app/entities.rb", :global_at=>17034, :event=>:reload_completed}]}}}, :rect=>[0.0, 0.0, 1280, 720], :ffi_draw=>"", :right=>1280, :top=>720, :center_y=>360.0, :left=>0.0}}

@@ -1,0 +1,262 @@
+* 000000 [Engine] Log started at 2022/8/12 12:18:32
+* 000000 [Engine] This copy of the engine is git hash cf202a80b3808d8a7891dd0535ed89db2ee02b67, built on Jun  5 2022, at 16:43:16
+* 000000 [Engine] Platform: Windows
+# 000000 [Engine] Unknown game metadata key '#compile_ruby', ignoring
+# 000000 [Engine] Unknown game metadata key '#packageid', ignoring
+- 000000 [Engine] Game ID: dungeon-dodge
+- 000000 [Engine] Game title: Dungeon Dodge 'em Up - Prototype
+- 000000 [Engine] Game version: 0.3
+- 000000 [Engine] Game package ID: org.kdvbs.dungeon-dodge
+- 000000 [Engine] Game Developer ID: kdvbs
+- 000000 [Engine] Game Developer title: kdvbs
+- 000000 [Engine] Production build: no
+? 000000 [Engine] RNG seed has been set to 1660328313.
+? 000000 [Engine] Marked app/main.rb for reload. (-1)
+? 000072 [Engine] RNG seed has been set to 1660328313.
+- 000073 [Game] * INFO: New methods discovered.
+** :map
+** :gtk
+** :grid
+** :args=
+** :args
+** :debug=
+** :renderDebugInfo
+** :renderOutput
+** :cameraFocus
+** :renderMap
+** :entityUpdate
+** :debug
+** :spriteAnimations
+** :outputs=
+** :detectInput
+** :deleteEntity
+** :enemyDead
+** :blowUpBomb
+** :state
+** :layout
+** :new_entity
+** :pixel_arrays
+** :geometry
+** :defaults
+** :new_entity_strict
+** :bombArray=
+** :player
+** :keypressed=
+** :keypressed
+** :enemyArray=
+** :enemyArray
+** :player=
+** :outputs
+** :passes
+** :temp_state
+** :inputs
+** :keyboard
+** :map=
+** :cameraFocusY
+** :entityCount=
+** :cameraFocusX
+** :entityCount
+** :cameraFocusY=
+** :bombArray
+** :cameraFocusX=
+
+? 000117 [Engine] Marked app/main.rb for reload. (6958)
+? 000117 [Engine] RNG seed has been set to 1660328313.
+? 000120 [Engine] RNG seed has been set to 1660328313.
+? 000164 [Engine] Marked app/main.rb for reload. (9671)
+? 000164 [Engine] RNG seed has been set to 1660328313.
+? 000164 [Engine] RNG seed has been set to 1660328313.
+- 000172 [Game] * EXCEPTION: nil cannot be converted to String
+** Backtrace:
+*** lib/tiled/utils.rb:1 (10133)
+? 000173 [Engine] Marked app/main.rb for reload. (10193)
+? 000173 [Engine] RNG seed has been set to 1660328313.
+? 000196 [Engine] Marked app/main.rb for reload. (11563)
+? 000196 [Engine] RNG seed has been set to 1660328313.
+? 000226 [Engine] Marked app/main.rb for reload. (13352)
+? 000226 [Engine] RNG seed has been set to 1660328313.
+? 000228 [Engine] RNG seed has been set to 1660328313.
+? 000243 [Engine] Marked app/main.rb for reload. (14353)
+? 000244 [Engine] RNG seed has been set to 1660328313.
+? 000256 [Engine] RNG seed has been set to 1660328313.
+? 000274 [Engine] Marked app/main.rb for reload. (16126)
+? 000274 [Engine] RNG seed has been set to 1660328313.
+? 000308 [Engine] Marked app/main.rb for reload. (18155)
+? 000308 [Engine] RNG seed has been set to 1660328313.
+? 000334 [Engine] Marked app/main.rb for reload. (19705)
+? 000334 [Engine] RNG seed has been set to 1660328313.
+? 000345 [Engine] Marked app/main.rb for reload. (20364)
+? 000346 [Engine] RNG seed has been set to 1660328313.
+? 000371 [Engine] Marked app/main.rb for reload. (21860)
+? 000371 [Engine] RNG seed has been set to 1660328313.
+? 000379 [Engine] Marked app/main.rb for reload. (22340)
+? 000379 [Engine] RNG seed has been set to 1660328313.
+? 000425 [Engine] RNG seed has been set to 1660328313.
+? 000453 [Engine] Marked app/main.rb for reload. (26753)
+? 000453 [Engine] RNG seed has been set to 1660328313.
+? 000459 [Engine] RNG seed has been set to 1660328313.
+? 000470 [Engine] Marked app/main.rb for reload. (27761)
+? 000471 [Engine] RNG seed has been set to 1660328313.
+- 000567 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 286:31: syntax error, unexpected '(', expecting keyword_end
+line 286:46: syntax error, unexpected ')', expecting keyword_end
+line 328:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** lib/tiled/utils.rb:1 (33494)
+? 000600 [Engine] Marked app/main.rb for reload. (35460)
+? 000600 [Engine] RNG seed has been set to 1660328313.
+? 000634 [Engine] RNG seed has been set to 1660328313.
+? 000699 [Engine] Marked app/main.rb for reload. (41360)
+? 000699 [Engine] RNG seed has been set to 1660328313.
+? 000718 [Engine] Marked app/main.rb for reload. (42497)
+? 000718 [Engine] RNG seed has been set to 1660328313.
+? 000740 [Engine] Marked app/main.rb for reload. (43812)
+? 000740 [Engine] RNG seed has been set to 1660328313.
+? 000746 [Engine] Marked app/main.rb for reload. (44172)
+? 000747 [Engine] RNG seed has been set to 1660328313.
+? 000760 [Engine] Marked app/main.rb for reload. (44946)
+? 000760 [Engine] RNG seed has been set to 1660328313.
+? 000772 [Engine] RNG seed has been set to 1660328313.
+? 000851 [Engine] Marked app/main.rb for reload. (50374)
+? 000851 [Engine] RNG seed has been set to 1660328313.
+? 000856 [Engine] Marked app/main.rb for reload. (50673)
+? 000856 [Engine] RNG seed has been set to 1660328313.
+? 000875 [Engine] RNG seed has been set to 1660328313.
+? 000886 [Engine] Marked app/main.rb for reload. (52458)
+? 000886 [Engine] RNG seed has been set to 1660328313.
+? 000897 [Engine] Marked app/main.rb for reload. (53116)
+? 000898 [Engine] RNG seed has been set to 1660328313.
+? 000917 [Engine] Marked app/main.rb for reload. (54251)
+? 000917 [Engine] RNG seed has been set to 1660328313.
+? 000938 [Engine] RNG seed has been set to 1660328313.
+? 000945 [Engine] Marked app/main.rb for reload. (55909)
+? 000945 [Engine] RNG seed has been set to 1660328313.
+? 000954 [Engine] Marked app/main.rb for reload. (56440)
+? 000954 [Engine] RNG seed has been set to 1660328313.
+? 000989 [Engine] Marked app/main.rb for reload. (58532)
+? 000989 [Engine] RNG seed has been set to 1660328313.
+? 001021 [Engine] RNG seed has been set to 1660328313.
+? 001033 [Engine] Marked app/main.rb for reload. (61092)
+? 001033 [Engine] RNG seed has been set to 1660328313.
+? 001035 [Engine] RNG seed has been set to 1660328313.
+? 001261 [Engine] RNG seed has been set to 1660328313.
+? 011876 [Engine] RNG seed has been set to 1660328313.
+? 011933 [Engine] Marked app/main.rb for reload. (711983)
+? 011933 [Engine] RNG seed has been set to 1660328313.
+? 011953 [Engine] Marked app/main.rb for reload. (713172)
+? 011953 [Engine] RNG seed has been set to 1660328313.
+? 011989 [Engine] Marked app/main.rb for reload. (715320)
+? 011989 [Engine] RNG seed has been set to 1660328313.
+? 011994 [Engine] Marked app/main.rb for reload. (715616)
+? 011994 [Engine] RNG seed has been set to 1660328313.
+? 012023 [Engine] Marked app/main.rb for reload. (717349)
+? 012023 [Engine] RNG seed has been set to 1660328313.
+? 012045 [Engine] Marked app/main.rb for reload. (718602)
+? 012045 [Engine] RNG seed has been set to 1660328313.
+? 012072 [Engine] Marked app/main.rb for reload. (720212)
+? 012072 [Engine] RNG seed has been set to 1660328313.
+? 012082 [Engine] Marked app/main.rb for reload. (720809)
+? 012082 [Engine] RNG seed has been set to 1660328313.
+? 012086 [Engine] Marked app/main.rb for reload. (721045)
+? 012086 [Engine] RNG seed has been set to 1660328313.
+? 012104 [Engine] Marked app/main.rb for reload. (722114)
+? 012104 [Engine] RNG seed has been set to 1660328313.
+? 012111 [Engine] Marked app/main.rb for reload. (722531)
+? 012111 [Engine] RNG seed has been set to 1660328313.
+? 012117 [Engine] Marked app/main.rb for reload. (722887)
+? 012117 [Engine] RNG seed has been set to 1660328313.
+? 012121 [Engine] Marked app/main.rb for reload. (723122)
+? 012122 [Engine] RNG seed has been set to 1660328313.
+? 012130 [Engine] Marked app/main.rb for reload. (723598)
+? 012130 [Engine] RNG seed has been set to 1660328313.
+? 012134 [Engine] Marked app/main.rb for reload. (723834)
+? 012134 [Engine] RNG seed has been set to 1660328313.
+? 012137 [Engine] Marked app/main.rb for reload. (724009)
+? 012137 [Engine] RNG seed has been set to 1660328313.
+? 012140 [Engine] Marked app/main.rb for reload. (724186)
+? 012140 [Engine] RNG seed has been set to 1660328313.
+? 012145 [Engine] Marked app/main.rb for reload. (724482)
+? 012145 [Engine] RNG seed has been set to 1660328313.
+? 012150 [Engine] Marked app/main.rb for reload. (724772)
+? 012150 [Engine] RNG seed has been set to 1660328313.
+? 012185 [Engine] RNG seed has been set to 1660328313.
+? 012229 [Engine] RNG seed has been set to 1660328313.
+? 012269 [Engine] Marked app/main.rb for reload. (731831)
+? 012270 [Engine] RNG seed has been set to 1660328313.
+? 012288 [Engine] RNG seed has been set to 1660328313.
+? 012304 [Engine] RNG seed has been set to 1660328313.
+? 012335 [Engine] Marked app/main.rb for reload. (735681)
+? 012335 [Engine] RNG seed has been set to 1660328313.
+? 012345 [Engine] RNG seed has been set to 1660328313.
+? 012352 [Engine] Marked app/main.rb for reload. (736681)
+? 012352 [Engine] RNG seed has been set to 1660328313.
+? 012380 [Engine] Marked app/main.rb for reload. (738350)
+? 012380 [Engine] RNG seed has been set to 1660328313.
+? 012427 [Engine] Marked app/main.rb for reload. (741153)
+? 012427 [Engine] RNG seed has been set to 1660328313.
+? 012497 [Engine] Marked app/main.rb for reload. (745326)
+? 012497 [Engine] RNG seed has been set to 1660328313.
+? 012537 [Engine] Marked app/main.rb for reload. (747718)
+? 012537 [Engine] RNG seed has been set to 1660328313.
+? 012557 [Engine] Marked app/main.rb for reload. (748911)
+? 012557 [Engine] RNG seed has been set to 1660328313.
+? 012565 [Engine] RNG seed has been set to 1660328313.
+? 012580 [Engine] Marked app/main.rb for reload. (750212)
+? 012580 [Engine] RNG seed has been set to 1660328313.
+? 012594 [Engine] Marked app/main.rb for reload. (751043)
+? 012594 [Engine] RNG seed has been set to 1660328313.
+? 012601 [Engine] RNG seed has been set to 1660328313.
+? 012617 [Engine] Marked app/main.rb for reload. (752400)
+? 012617 [Engine] RNG seed has been set to 1660328313.
+? 012625 [Engine] Marked app/main.rb for reload. (752868)
+? 012625 [Engine] RNG seed has been set to 1660328313.
+? 012667 [Engine] Marked app/main.rb for reload. (755368)
+? 012667 [Engine] RNG seed has been set to 1660328313.
+? 012677 [Engine] Marked app/main.rb for reload. (755961)
+? 012677 [Engine] RNG seed has been set to 1660328313.
+? 012686 [Engine] Marked app/main.rb for reload. (756494)
+? 012686 [Engine] RNG seed has been set to 1660328313.
+? 012693 [Engine] RNG seed has been set to 1660328313.
+? 012703 [Engine] RNG seed has been set to 1660328313.
+? 012724 [Engine] Marked app/main.rb for reload. (758733)
+? 012725 [Engine] RNG seed has been set to 1660328313.
+? 012748 [Engine] Marked app/main.rb for reload. (760159)
+? 012749 [Engine] RNG seed has been set to 1660328313.
+? 012758 [Engine] Marked app/main.rb for reload. (760690)
+? 012758 [Engine] RNG seed has been set to 1660328313.
+? 012762 [Engine] RNG seed has been set to 1660328313.
+? 012767 [Engine] Marked app/main.rb for reload. (761211)
+? 012767 [Engine] RNG seed has been set to 1660328313.
+? 012811 [Engine] Marked app/main.rb for reload. (763831)
+? 012811 [Engine] RNG seed has been set to 1660328313.
+? 012823 [Engine] Marked app/main.rb for reload. (764537)
+? 012823 [Engine] RNG seed has been set to 1660328313.
+? 012853 [Engine] RNG seed has been set to 1660328313.
+? 012862 [Engine] Marked app/main.rb for reload. (766838)
+? 012862 [Engine] RNG seed has been set to 1660328313.
+? 012879 [Engine] Marked app/main.rb for reload. (767848)
+? 012879 [Engine] RNG seed has been set to 1660328313.
+? 012886 [Engine] Marked app/main.rb for reload. (768262)
+? 012886 [Engine] RNG seed has been set to 1660328313.
+? 012891 [Engine] Marked app/main.rb for reload. (768552)
+? 012891 [Engine] RNG seed has been set to 1660328313.
+? 012896 [Engine] Marked app/main.rb for reload. (768845)
+? 012896 [Engine] RNG seed has been set to 1660328313.
+? 012899 [Engine] Marked app/main.rb for reload. (769018)
+? 012899 [Engine] RNG seed has been set to 1660328313.
+? 012902 [Engine] Marked app/main.rb for reload. (769192)
+? 012903 [Engine] RNG seed has been set to 1660328313.
+? 012907 [Engine] Marked app/main.rb for reload. (769422)
+? 012907 [Engine] RNG seed has been set to 1660328313.
+? 012913 [Engine] Marked app/main.rb for reload. (769776)
+? 012913 [Engine] RNG seed has been set to 1660328313.
+? 012916 [Engine] Marked app/main.rb for reload. (769947)
+? 012916 [Engine] RNG seed has been set to 1660328313.
+? 012920 [Engine] Marked app/main.rb for reload. (770178)
+? 012920 [Engine] RNG seed has been set to 1660328313.
+? 012961 [Engine] RNG seed has been set to 1660328313.
+* 012968 [Engine] Logging shutting down

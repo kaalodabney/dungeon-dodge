@@ -1,0 +1,13 @@
+* 000000 [Engine] Log started at 2022/7/16 18:42:47
+* 000000 [Engine] This copy of the engine is git hash cf202a80b3808d8a7891dd0535ed89db2ee02b67, built on Jun  5 2022, at 16:43:16
+* 000000 [Engine] Platform: Windows
+- 000000 [Engine] Game ID: shadows
+- 000000 [Engine] Game title: Shadows
+- 000000 [Engine] Game version: 1.0
+- 000000 [Engine] Game package ID: org.dragonruby.shadows
+- 000000 [Engine] Game Developer ID: dragonruby
+- 000000 [Engine] Game Developer title: DragonRuby LLP
+- 000000 [Engine] Production build: no
+? 000000 [Engine] RNG seed has been set to 1658018567.
+? 000000 [Engine] Marked app/main.rb for reload. (-1)
+* 000291 [Engine] Logging shutting down

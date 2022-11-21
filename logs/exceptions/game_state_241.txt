@@ -1,0 +1,27 @@
+# * EXCEPTION:
+# ** Failed to reload app/main.rb.
+# line 52:34: syntax error, unexpected ':'
+# line 53:34: syntax error, unexpected ':'
+# line 54:32: syntax error, unexpected ':'
+# line 55:25: syntax error, unexpected ':'
+# line 56:25: syntax error, unexpected ':'
+# line 56:35: syntax error, unexpected ',', expecting keyword_end
+# line 57:29: syntax error, unexpected ':'
+# line 58:30: syntax error, unexpected ':'
+# line 60:34: syntax error, unexpected ':'
+# line 61:34: syntax error, unexpected ':'
+# line 0:0: (null)
+# line 0:0: (null)
+# line 0:0: (null)
+# line 0:0: (null)
+# line 0:0: (null)
+# line 0:0: (null)
+# line 0:0: (null)
+# 
+# 
+# 
+# ** Backtrace:
+# *** app/main.rb:132
+
+Game State:
+{:state=>{:entity_id=>2, :tick_count=>241, :__thrash_count__=>{:spriteAnim=>1}, :player=>{:entity_id=>1, :entity_name=>:player, :entity_keys_by_ref=>{}, :__thrash_count__=>{:spriteAnim==>1}, :spriteAnim=>"idle", :spriteFlip=>false, :spriteID=>1, :x=>555, :y=>310, :width=>100, :height=>100, :moveSpeed=>5, :sprite=>"sprites/dc16pp/heroes/knight/knight_idle_anim_f1.png"}, :keypressed=>""}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:truthy_keys=>[]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>false}, :mouse=>{:x=>0.0, :y=>477.0, :moved=>nil, :moved_at=>117, :has_focus=>false}, :text=>[]}, :passes=>[{:solids=>[], :sprites=>[], :lines=>[], :labels=>[], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}], :outputs=>{:solids=>[], :sprites=>[], :lines=>[], :labels=>[], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:origin_x=>0.0, :bottom=>0.0, :left_margin=>0.0, :center_x=>640.0, :center=>[640.0, 360.0], :origin_y=>720, :name=>:bottom_left, :bottom_margin=>0.0, :runtime=>{:argv=>"C:\\Projects\\Dragonruby\\Hello World Tyle\\dragonruby.exe", :platform=>"Windows", :required_files=>[], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>65306, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>1979, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>1980, :event=>:processing}, {:path=>"app/main.rb", :global_at=>1981, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>4017, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>4018, :event=>:processing}, {:path=>"app/main.rb", :global_at=>4019, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>55388, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>55388, :event=>:processing}, {:path=>"app/main.rb", :global_at=>55389, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>65305, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>65305, :event=>:processing}, {:path=>"app/main.rb", :global_at=>65306, :event=>:reload_completed}]}}}, :rect=>[0.0, 0.0, 1280, 720], :ffi_draw=>"", :right=>1280, :top=>720, :center_y=>360.0, :left=>0.0}}

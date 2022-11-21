@@ -1,0 +1,1039 @@
+
+* WARNING: ~Hash#sprite~ is deprecated becuase it's poorly named. Use ~Hash#sprite!~ instead.
+This method will stay here for backwards compatibility. But, consider using one of the following methods:
+** Option 1: ~:sprite! &OPTIONAL additional_keys_to_merge~
+This will mutate the current hash in-place. It's identical to the current method you're using,
+but better signifies that a side effect is occuring (because of the ~!~ at the end).
+*** Example
+Here is an example of how your code may change.
+**** Before
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # here ~Hash#merge!~ and ~Hash#border~ are used in combination
+    args.state.some_primitive ||= { x: 8, y: 8, w: 32, h: 32 }.merge!(primitive_style).sprite
+
+    args.outputs.primitives << args.state.some_primitive
+  end
+#+end_src
+**** After
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # if you use ~Hash#sprite!~ you can combine the
+    # ~Hash#merge!~ and ~Hash#sprite~ method calls
+    args.state.some_sprite ||= { x: 8, y: 8, w: 32, h: 32 }.sprite! primitive_style
+
+    args.outputs.primitives << args.state.button_sprite
+  end
+#+end_src
+** Option 2: ~:to_sprite &OPTIONAL additional_keys_to_merge~
+This will return a new ~Hash~ leaving the original *untouched*.
+** Caller:
+If you decide to fix this error now, you can run ~Log.reset~ to invalidate this warning
+and be notified of other places you're using this function.
+*** app/main.rb:146:in viewOutput
+*** app/main.rb:35:in tick
+*** app/main.rb:162
+
+[Message ID: [:consider_sprite!]]
+
+
+* DOCS:
+Here are the classes that have documentation. You can call the .docs method
+on any of these classes:
+** GTK::ReadMe.docs
+** GTK::Runtime.docs
+** Array.docs
+** GTK::Args.docs
+** GTK::Outputs.docs
+** GTK::Mouse.docs
+** GTK::OpenEntity.docs
+** Numeric.docs
+** Kernel.docs
+** Geometry.docs
+
+
+* WARNING: ~Hash#sprite~ is deprecated becuase it's poorly named. Use ~Hash#sprite!~ instead.
+This method will stay here for backwards compatibility. But, consider using one of the following methods:
+** Option 1: ~:sprite! &OPTIONAL additional_keys_to_merge~
+This will mutate the current hash in-place. It's identical to the current method you're using,
+but better signifies that a side effect is occuring (because of the ~!~ at the end).
+*** Example
+Here is an example of how your code may change.
+**** Before
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # here ~Hash#merge!~ and ~Hash#border~ are used in combination
+    args.state.some_primitive ||= { x: 8, y: 8, w: 32, h: 32 }.merge!(primitive_style).sprite
+
+    args.outputs.primitives << args.state.some_primitive
+  end
+#+end_src
+**** After
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # if you use ~Hash#sprite!~ you can combine the
+    # ~Hash#merge!~ and ~Hash#sprite~ method calls
+    args.state.some_sprite ||= { x: 8, y: 8, w: 32, h: 32 }.sprite! primitive_style
+
+    args.outputs.primitives << args.state.button_sprite
+  end
+#+end_src
+** Option 2: ~:to_sprite &OPTIONAL additional_keys_to_merge~
+This will return a new ~Hash~ leaving the original *untouched*.
+** Caller:
+If you decide to fix this error now, you can run ~Log.reset~ to invalidate this warning
+and be notified of other places you're using this function.
+*** app/main.rb:259:in viewOutput
+*** app/main.rb:17:in tick
+*** app/main.rb:295
+
+[Message ID: [:consider_sprite!]]
+
+
+* WARNING: ~Hash#sprite~ is deprecated becuase it's poorly named. Use ~Hash#sprite!~ instead.
+This method will stay here for backwards compatibility. But, consider using one of the following methods:
+** Option 1: ~:sprite! &OPTIONAL additional_keys_to_merge~
+This will mutate the current hash in-place. It's identical to the current method you're using,
+but better signifies that a side effect is occuring (because of the ~!~ at the end).
+*** Example
+Here is an example of how your code may change.
+**** Before
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # here ~Hash#merge!~ and ~Hash#border~ are used in combination
+    args.state.some_primitive ||= { x: 8, y: 8, w: 32, h: 32 }.merge!(primitive_style).sprite
+
+    args.outputs.primitives << args.state.some_primitive
+  end
+#+end_src
+**** After
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # if you use ~Hash#sprite!~ you can combine the
+    # ~Hash#merge!~ and ~Hash#sprite~ method calls
+    args.state.some_sprite ||= { x: 8, y: 8, w: 32, h: 32 }.sprite! primitive_style
+
+    args.outputs.primitives << args.state.button_sprite
+  end
+#+end_src
+** Option 2: ~:to_sprite &OPTIONAL additional_keys_to_merge~
+This will return a new ~Hash~ leaving the original *untouched*.
+** Caller:
+If you decide to fix this error now, you can run ~Log.reset~ to invalidate this warning
+and be notified of other places you're using this function.
+*** app/main.rb:295:in viewOutput
+*** app/main.rb:17:in tick
+*** app/main.rb:331
+
+[Message ID: [:consider_sprite!]]
+
+
+* WARNING: ~Hash#sprite~ is deprecated becuase it's poorly named. Use ~Hash#sprite!~ instead.
+This method will stay here for backwards compatibility. But, consider using one of the following methods:
+** Option 1: ~:sprite! &OPTIONAL additional_keys_to_merge~
+This will mutate the current hash in-place. It's identical to the current method you're using,
+but better signifies that a side effect is occuring (because of the ~!~ at the end).
+*** Example
+Here is an example of how your code may change.
+**** Before
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # here ~Hash#merge!~ and ~Hash#border~ are used in combination
+    args.state.some_primitive ||= { x: 8, y: 8, w: 32, h: 32 }.merge!(primitive_style).sprite
+
+    args.outputs.primitives << args.state.some_primitive
+  end
+#+end_src
+**** After
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # if you use ~Hash#sprite!~ you can combine the
+    # ~Hash#merge!~ and ~Hash#sprite~ method calls
+    args.state.some_sprite ||= { x: 8, y: 8, w: 32, h: 32 }.sprite! primitive_style
+
+    args.outputs.primitives << args.state.button_sprite
+  end
+#+end_src
+** Option 2: ~:to_sprite &OPTIONAL additional_keys_to_merge~
+This will return a new ~Hash~ leaving the original *untouched*.
+** Caller:
+If you decide to fix this error now, you can run ~Log.reset~ to invalidate this warning
+and be notified of other places you're using this function.
+*** app/main.rb:315:in viewOutput
+*** app/main.rb:21:in tick
+*** app/main.rb:361
+
+[Message ID: [:consider_sprite!]]
+
+================
+* INFO: Starting Itch Wizard.
+* INFO: Running Itch Wizard Step: ~$wizards.itch.check_metadata~
+* INFO: Contents of metadata/game_metadata.txt:
+#+begin_src txt
+  #devid=myname
+
+  #devtitle=My Name
+
+  #gameid=mygame
+
+  #gametitle=My Game
+
+  #version=0.1
+
+  #icon=metadata/icon.png
+
+  
+
+  # Uncomment the entry below to bytecode compile your Ruby code (Pro License Only)
+
+  #compile_ruby=false
+
+  
+
+  # Uncomment the entry below to specify the package name for your APK (Pro License Only)
+
+  #packageid=org.dev.gamename
+
+#+end_src
+* PROMPT: Please provide your username for Itch.
+* INFO: Exiting wizard. :need_dev_id
+
+* WARNING: ~Hash#sprite~ is deprecated becuase it's poorly named. Use ~Hash#sprite!~ instead.
+This method will stay here for backwards compatibility. But, consider using one of the following methods:
+** Option 1: ~:sprite! &OPTIONAL additional_keys_to_merge~
+This will mutate the current hash in-place. It's identical to the current method you're using,
+but better signifies that a side effect is occuring (because of the ~!~ at the end).
+*** Example
+Here is an example of how your code may change.
+**** Before
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # here ~Hash#merge!~ and ~Hash#border~ are used in combination
+    args.state.some_primitive ||= { x: 8, y: 8, w: 32, h: 32 }.merge!(primitive_style).sprite
+
+    args.outputs.primitives << args.state.some_primitive
+  end
+#+end_src
+**** After
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # if you use ~Hash#sprite!~ you can combine the
+    # ~Hash#merge!~ and ~Hash#sprite~ method calls
+    args.state.some_sprite ||= { x: 8, y: 8, w: 32, h: 32 }.sprite! primitive_style
+
+    args.outputs.primitives << args.state.button_sprite
+  end
+#+end_src
+** Option 2: ~:to_sprite &OPTIONAL additional_keys_to_merge~
+This will return a new ~Hash~ leaving the original *untouched*.
+** Caller:
+If you decide to fix this error now, you can run ~Log.reset~ to invalidate this warning
+and be notified of other places you're using this function.
+*** app/main.rb:339:in viewOutput
+*** app/main.rb:21:in tick
+*** app/main.rb:386
+
+[Message ID: [:consider_sprite!]]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* DOCS:
+Here are the classes that have documentation. You can call the .docs method
+on any of these classes:
+** GTK::ReadMe.docs
+** GTK::Runtime.docs
+** Array.docs
+** GTK::Args.docs
+** GTK::Outputs.docs
+** GTK::Mouse.docs
+** GTK::OpenEntity.docs
+** Numeric.docs
+** Kernel.docs
+** Geometry.docs
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { playerArray: playerArray, enemyArray: enemyArray, keypressed: keypressed }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Enemy does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Enemy
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { playerArray: playerArray, enemyArray: enemyArray, keypressed: keypressed }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { healthbar: healthbar, healthbarUI: healthbarUI, hearts: hearts }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, initialize: initialize }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, initialize: initialize }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, args: args }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Enemy does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Enemy
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Bomb does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Bomb
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Bomb does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Bomb
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Tiled::Layers does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Tiled::Layers
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, bombArray: bombArray, entityCount: entityCount, map: map }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: Replay has been started.
+* INFO: Replay ends in 59 second(s).
+* INFO: Replay ends in 58 second(s).
+* INFO: Replay ends in 57 second(s).
+* INFO: Replay ends in 56 second(s).
+* INFO: Replay ends in 55 second(s).
+* INFO: Replay ends in 54 second(s).
+* INFO: Replay ends in 53 second(s).
+* INFO: Replay ends in 52 second(s).
+* INFO: Replay ends in 51 second(s).
+* INFO: Replay ends in 50 second(s).
+* INFO: Replay ends in 49 second(s).
+* INFO: Replay ends in 48 second(s).
+* INFO: Replay ends in 47 second(s).
+* INFO: Replay ends in 46 second(s).
+* INFO: Replay ends in 45 second(s).
+* INFO: Replay ends in 44 second(s).
+* INFO: Replay ends in 43 second(s).
+* INFO: Replay ends in 42 second(s).
+* INFO: Replay ends in 41 second(s).
+* INFO: Replay ends in 40 second(s).
+* INFO: Replay ends in 39 second(s).
+* INFO: Replay ends in 38 second(s).
+* INFO: Replay ends in 37 second(s).
+* INFO: Replay ends in 36 second(s).
+* INFO: Replay ends in 35 second(s).
+* INFO: Replay ends in 34 second(s).
+* INFO: Replay ends in 33 second(s).
+* INFO: Replay ends in 32 second(s).
+* INFO: Replay ends in 31 second(s).
+* INFO: Replay ends in 30 second(s).
+* INFO: Replay ends in 29 second(s).
+* INFO: Replay ends in 28 second(s).
+* INFO: Replay ends in 27 second(s).
+* INFO: Replay ends in 26 second(s).
+* INFO: Replay ends in 25 second(s).
+* INFO: Replay ends in 24 second(s).
+* INFO: Replay ends in 23 second(s).
+* INFO: Replay ends in 22 second(s).
+* INFO: Replay ends in 21 second(s).
+* INFO: Replay ends in 20 second(s).
+* INFO: Replay ends in 19 second(s).
+* INFO: Replay ends in 18 second(s).
+* INFO: Replay ends in 17 second(s).
+* INFO: Replay ends in 16 second(s).
+* INFO: Replay ends in 15 second(s).
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, bombArray: bombArray, entityCount: entityCount, map: map }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, bombArray: bombArray, entityCount: entityCount, map: map }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, bombArray: bombArray, entityCount: entityCount, map: map, outputs: outputs, cameraFocusX: cameraFocusX, cameraFocusY: cameraFocusY, debug: debug }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Enemy does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Enemy
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { dead: dead }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, bombArray: bombArray, entityCount: entityCount, map: map, outputs: outputs, cameraFocusX: cameraFocusX, cameraFocusY: cameraFocusY, cameraZoom: cameraZoom, debug: debug }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { healthbar: healthbar, healthbarUI: healthbarUI, hearts: hearts }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { healthbar: healthbar, healthbarUI: healthbarUI, hearts: hearts }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x6319210>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x633aac0>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x63ca300>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x62b9680>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x63da2c0>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x62b9680>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x62b9680>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x6338d20>
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { healthbar: healthbar, healthbarUI: healthbarUI, hearts: hearts }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Enemy does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Enemy
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { dead: dead }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { healthbar: healthbar, healthbarUI: healthbarUI, hearts: hearts }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Player does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Player
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { healthbar: healthbar, healthbarUI: healthbarUI, hearts: hearts }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x642fd60>
+* INFO: The .to_s function for type [Enemy] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Enemy:0x642eb60>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x2746270>
+* INFO: The .to_s function for type [Enemy] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Enemy:0x273a3f0>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x2726250>
+* INFO: The .to_s function for type [Enemy] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Enemy:0x271b600>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x2d12e20>
+* INFO: The .to_s function for type [Enemy] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Enemy:0x2d12ac0>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x26af3f0>
+* INFO: The .to_s function for type [Enemy] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Enemy:0x634b800>
+* INFO: The .to_s function for type [Player] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<Player:0x3626e80>
+
+* WARNING: Game does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Game
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { player: player, enemyArray: enemyArray, keypressed: keypressed, bombArray: bombArray, entityCount: entityCount, map: map, cameraFocusX: cameraFocusX, cameraFocusY: cameraFocusY, debug: debug }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+

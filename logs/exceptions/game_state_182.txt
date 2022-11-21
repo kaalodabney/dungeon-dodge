@@ -1,0 +1,11 @@
+# * EXCEPTION: uninitialized constant Game::Effect
+# ** Backtrace:
+# *** app/main.rb:92:in blowUpBomb
+# *** app/main.rb:177:in spriteAnimations
+# *** app/main.rb:132:in spriteAnimations
+# *** app/main.rb:240:in tick
+# *** app/main.rb:251:in tick
+# *** app/entities.rb:200
+
+Game State:
+{:state=>{:entity_id=>1, :tick_count=>182}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:raw_key=>173, :char=>173, :a=>116, :s=>173, :truthy_keys=>[:raw_key, :char, :a, :s]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>true}, :mouse=>{:x=>939.0, :y=>458.0, :moved=>nil, :moved_at=>121, :has_focus=>true}, :text=>[]}, :passes=>[], :outputs=>{:solids=>[], :sprites=>[], :lines=>[], :labels=>[{:x=>10, :y=>560, :text=>"x/cx/dx, x/cy/dy: [536/542/-6, 430/436/-6]"}, {:x=>10, :y=>400, :text=>"[#<Bomb:0x635e720>]"}], :sounds=>[], :borders=>[{:x=>542, :y=>436, :w=>75, :h=>75}, {:x=>536, :y=>430, :w=>75, :h=>75, :r=>255, :g=>0, :b=>0}], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:origin_x=>0.0, :bottom=>0.0, :left_margin=>0.0, :center_x=>640.0, :center=>[640.0, 360.0], :origin_y=>720, :name=>:bottom_left, :bottom_margin=>0.0, :runtime=>{:argv=>"C:\\Projects\\Dragonruby\\Hello World Tyle\\dragonruby.exe", :platform=>"Windows", :required_files=>["app/entities.rb"], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}]}, "app/entities.rb"=>{:current=>{:path=>"app/entities.rb", :global_at=>-1, :event=>:reload_completed}, :history=>[{:path=>"app/entities.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/entities.rb", :global_at=>-1, :event=>:reload_completed}]}}}, :rect=>[0.0, 0.0, 1280, 720], :ffi_draw=>"", :right=>1280, :top=>720, :center_y=>360.0, :left=>0.0}}

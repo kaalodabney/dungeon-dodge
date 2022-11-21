@@ -1,0 +1,59 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Projects/Game Dev/Assets/rpgdungeontilesetplus2bonuscharacters_windows/rpgdungeontilesetplus2bonuscharacters/Assets/examples.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 530.25,
+                "y": 739
+            }
+        },
+        "C:/Projects/Game Dev/Assets/rpgdungeontilesetplus2bonuscharacters_windows/rpgdungeontilesetplus2bonuscharacters/Assets/examples.tmx#dungeon_tileset_v1": {
+            "scaleInDock": 4
+        },
+        "Terrain Set - RPG Dungeon Tileset 16 x 16 - Pita.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 3
+        },
+        "dungeon.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -149,
+                "y": -12
+            }
+        }
+    },
+    "last.imagePath": "C:/Projects/Game Dev/Assets/rpgdungeontilesetplus2bonuscharacters_windows/rpgdungeontilesetplus2bonuscharacters/Assets",
+    "map.fixedSize": true,
+    "map.height": 45,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 80,
+    "openFiles": [
+    ],
+    "project": "Dungeon Dodge.tiled-project",
+    "recentFiles": [
+        "Terrain Set - RPG Dungeon Tileset 16 x 16 - Pita.tsx",
+        "dungeon.tmx",
+        "C:/Projects/Game Dev/Assets/rpgdungeontilesetplus2bonuscharacters_windows/rpgdungeontilesetplus2bonuscharacters/Assets/examples.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
